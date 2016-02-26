@@ -1,0 +1,361 @@
+/* navigation  */
+.edit-userinfo {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+}
+
+.problem-pagination {
+    width: 100%;
+    max-width: 600px; /* will ok in pagination less than 15, if larger than 15, make li a padding less, or other ui*/
+    float: left;
+}
+
+.forget-password {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 8px 12px 4px;
+}
+
+.contest-nav {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto 30px !important;
+}
+
+/* content */
+.problem-search {
+    float: right;
+}
+
+@media(max-width:767px) {
+  .problem-search {
+    width: 100%;
+  }
+}
+
+.status-filter .form-group {
+    margin-right: 20px;
+}
+
+.news {
+    margin: 30px 10px;
+}
+
+.table,
+.news-content {
+    overflow: hidden;
+}
+
+.page-title {
+    text-align: center;
+    margin: 10px 0 30px !important;
+}
+
+div.err-notice {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.contest-info {
+    /*font-size: 16px;*/
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.contest-info p {
+    margin-bottom: 3px !important;
+}
+
+.solution-info {
+    vertical-align: top;
+}
+
+.detail dt {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.detail dd, .readability {
+    margin: 1em 20px 1em;
+    font-size: 1.465em;
+    font-family: "minion-pro-1", "minion-pro-2", "Palatino", Georgia, "Times New Roman", serif;
+    line-height: 1.7em;
+}
+
+.readability {
+    font-size: 1.3em;
+}
+
+ul.summary {
+    list-style-type: none;
+}
+
+ul.summary li {
+    margin: 5px auto 5px;
+}
+
+.welcome p {
+    font-size: 16px;
+}
+
+.user-profile p {
+    font-size: 14px;
+}
+
+.user-profile .basic-info {
+    margin-bottom: 20px;
+}
+
+.basic-info i {
+    margin-right: 7px;
+}
+
+.thanks ul li {
+    height: 1.7em;
+}
+
+#fn-nav {
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto 18px;
+}
+
+#fn-nav li {
+    float: none;
+    display: inline-block;
+    *display: inline; /* for ie7 */
+    *zoom: 1; /* for ie7 */
+}
+
+form.submit {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto 50px;
+}
+
+form.submit fieldset {
+    width: 70%;
+    margin: auto;
+}
+
+form.submit textarea {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+/* faqs */
+.faqs dt.q {
+    font-size: larger;
+    margin-bottom: 1em;
+}
+
+.faqs dt span, #faqs dd .sp-a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*  footer  */
+
+.runtime-info {
+    display: none;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer ul li {
+    margin: 5px 10px;
+    display: inline;
+    text-align: center;
+}
+
+/* mail list */
+.mail-item .mail-title {
+    font-size: 20px;
+}
+
+/*  admin */
+.capitalize {
+    text-transform: capitalize;
+}
+
+#edit-problem-list {
+    list-style: upper-alpha outside;
+    margin: 0;
+    padding: 0 0 30px 0;
+    width: 80%;
+}
+
+#edit-problem-list li {
+    margin: 0 3px 3px 3px;
+    padding: 0.4em 0.4em 0.4em 0.5em !important;
+    border: 1px solid #f4a460;
+    /*outline: 1px solid #f4a460;*/
+}
+
+#edit-problem-list li span {
+    float: left;
+    margin-left: -0.4em;
+}
+
+.edit-link {
+    color: #2e8b57;
+    margin-right: 10px;
+}
+
+.topic h2 {
+    display: inline-block;
+}
+
+.admin-op {
+    float: right;
+    margin-top: 30px;
+    vertical-align: bottom;
+}
+
+div.user-stats li {
+    background-color: #428bca;
+    border-radius: 4px;
+    padding: 20px;
+    height: 100px;
+    margin: 20px 5px 5px 5px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+div.user-stats li.accept{
+    color: #32cd32;
+}
+
+div.user-stats li.failed{
+    color: #f0ad4e;
+}
+
+
+.reply-content {
+    margin-top: 5px;
+    white-space: pre;
+    word-wrap: break-word;
+}
+
+.reply-header {
+    border-bottom: 1px solid darkgrey;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.rank-pager li {
+    margin-right: 50px;
+}
+
+.rank-pager .reflesh a {
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
+
+.rank-pager .reflesh a:hover {
+    color: #2a6496;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header {
+    margin-bottom: 8px;
+}
+
+.ui-timepicker-div dl {
+    text-align: left;
+}
+
+.ui-timepicker-div dl dt {
+    height: 25px;
+    margin-bottom: -25px;
+}
+
+.ui-timepicker-div dl dd {
+    margin: 0 10px 10px 65px;
+}
+
+.ui-timepicker-div td {
+    font-size: 90%;
+}
+
+.ui-tpicker-grid-label {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.readmore {
+
+}
+
+.solved_problems a, .tried_problems a{
+    margin: 10px;
+}
+
+.navbar {
+    border-radius: 0 !important;
+}
+
+.double-side-pager {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.title-contest-problem {
+    margin: 20px auto 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.add-reply textarea {
+    width: 100%;
+    max-width: 500px;
+}
+
+.new-topic {
+    width: 100%;
+    max-width: 800px;
+}
+
+.statics-lang {
+    width: 25%;
+    border-left: silver solid 1px;
+}
+
+.statics-problem{
+    width: 70%;
+    float: left;
+}
+
+#edit-problem-list a{
+    float: right;
+    cursor: pointer;
+}
+
+.footer > ul {
+    padding-left: 0;
+}
+
+
+.passed{
+    color: white;
+    background-color: #4cae4c !important;
+}
+
+.trying{
+    color: white;
+    background-color: #eea236 !important;
+}
+
+.submit textarea {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4;
+}

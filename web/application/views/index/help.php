@@ -1,0 +1,1 @@
+<?php echo(__('common.user_forget_password')); ?> <?php echo(Model_Option::get_option('admin.email'));?>
