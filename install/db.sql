@@ -194,7 +194,7 @@ CREATE TABLE  `custominput` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 # create a admin
-insert into privilege(user_id,rightstr) values('admin','administrator');
+INSERT INTO privilege(user_id,rightstr) VALUES('admin','administrator');
 
 
 # support language
