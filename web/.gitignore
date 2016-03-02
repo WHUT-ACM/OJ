@@ -1,9 +1,0 @@
-# idea files
-.idea
-
-# logs
-application/logs/
-
-# cache
-application/cache/
-application/config/development/database.php

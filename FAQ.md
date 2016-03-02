@@ -6,6 +6,29 @@
 
 - Input&Output data name
 
-Promblemid.in
-Promblemid.out
+`Promblemid.in`
+`Promblemid.out`
+
+- chmod
+
+`sudo chmod -R 777 /var/www/html`
+
+- config
+
+`./web/example.htacess`
+`./web/application/config/base.sample.php`
+`./web/application/config/production/database.sample.php`
+
+- rewirte
+
+ubuntu 14.04 LTS
+
+`sudo a2enmod rewrite`
+在 `/etc/apache2/site-enabled/000-default` 中添加
+
+```
+	<Directory /var/www/html>
+		AllowOverride ALL
+	</Directory>
+```
 
